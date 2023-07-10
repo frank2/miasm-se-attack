@@ -21,10 +21,13 @@
 ## Running
 You need:
 * Python 3
-* miasm
+  * pefile
+  * miasm
 
 Once you have Python:
 ```
-$ pip install miasm
+$ pip install pefile miasm
 $ python3 solve_benign.py
 ```
+
+I have no clue if this runs on Linux (since it never technically executes the program) so let me know if it does!
