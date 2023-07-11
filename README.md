@@ -99,7 +99,7 @@ There are two additional techniques one must employ to get miasm's symbolic exec
 
 In the lifter function for miasm there is a function which specifically returns the side-effects of a `call` instruction. This can be patched to
 output the proper semantics of the `call` instruction, thus producing valid IR instructions to execute. See 
-(the benign solution)[https://github.com/frank2/miasm-se-attack/blob/362d2755b6b3041d4a9941e373185c4c8bd164fa/solve_benign.py#L17] for how simple this
+[the benign solution](https://github.com/frank2/miasm-se-attack/blob/362d2755b6b3041d4a9941e373185c4c8bd164fa/solve_benign.py#L17) for how simple this
 patch was.
 
 #### Writing a custom disassembler
@@ -107,7 +107,7 @@ patch was.
 The solution for the `call` proxies is not as straightforward as the solution for PFUCC, but is fundamentally just as simple. A custom disassembler
 must be created in order to disassemble the code blocks. Combined with the patch to how `call` instructions are represented at the IR level, the problem
 solves just fine with miasm. See 
-(the hostile solution)[https://github.com/frank2/miasm-se-attack/blob/362d2755b6b3041d4a9941e373185c4c8bd164fa/solve_hostile.py#L22] for how to write
+[the hostile solution](https://github.com/frank2/miasm-se-attack/blob/362d2755b6b3041d4a9941e373185c4c8bd164fa/solve_hostile.py#L22) for how to write
 a custom disassembler for miasm.
 
 ### Running the solutions
