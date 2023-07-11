@@ -1,15 +1,15 @@
 # A functional attack on miasm's default symbolic execution engine configuration
 ## Contents
 
-* (Introduction)[#introduction]
-* (Attack)[#attack]
-** (PFUCC)[#pfucc]
-** (Call proxies)[#call-proxies]
-* (Solving)[#solving]
-** (Patching the lifter)[#patching-the-lifter]
-** (Writing a custom disassembler)[#writing-a-custom-disassembler]
-* (Running the solutions)[#running-the-solutions]
-* (Conclusions)[#conclusions]
+* [Introduction](#introduction)
+* [Attack](#attack)
+  * [PFUCC](#pfucc)
+  * [Call proxies](#call-proxies)
+* [Solving](#solving)
+  * [Patching the lifter](#patching-the-lifter)
+  * [Writing a custom disassembler](#writing-a-custom-disassembler)
+* [Running the solutions](#running-the-solutions)
+* [Conclusions](#conclusions)
 
 ### Introduction
 
