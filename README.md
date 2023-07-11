@@ -10,6 +10,7 @@
   * [Writing a custom disassembler](#writing-a-custom-disassembler)
 * [Running the solutions](#running-the-solutions)
 * [Conclusions](#conclusions)
+* [Contact](#contact)
 
 ### Introduction
 
@@ -130,3 +131,7 @@ As you can see by running the solution files, this is not a viable attack on sym
 of miasm's engine specifically. Without patches to the lifter itself, miasm's symbolic execution engine is no match for simple modifications to call
 instructions (PFUCC) or intentional muckery with call instructions (call proxies). However, just as easily as the attacks are introduced, the attacks are
 easily defeated with just a little bit of help to give miasm's symbolic execution engine.
+
+### Contact
+
+Follow me on Mastodon: [@amethyst@haunted.computer](https://haunted.computer/@amethyst)
